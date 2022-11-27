@@ -1,0 +1,23 @@
+                    ************************************************************Day-2:Task-JS:-Q.1:************************************************************* 
+                    
+                                                               Difference between Window Vs Document Object :
+
+Window                                                         				                 Document
+It represents a browser window or frame that displays the contents of the webpage.           It represents any HTML document or web page that is loaded in the browser.
+                                                        
+It is loaded inside the window.                                                              It is the very first object that is loaded in the browser.                                                                           
+                                                        
+It is the object of the browser.                                                             It is the object of window property.                        
+                                                        
+Global objects, functions, and variables of JavaScript are members of the window object.     All the tags, elements with attributes in HTML are part of the document.
+                                                        
+We can access the window from the window only. i.e. window.window                            We can access the document from a window using the window. document                            
+                                                        
+The window is part of BOM, not DOM.                                                          The document is part of BOM (browser object model) and dom (Document object model)
+                                                        
+Properties of the window object cannot be accessed by the document object.                   Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title                                     
+syntax:                                                                                      syntax:
+window.propertyname;                                                                         document.propertyname;
+
+example:                                                                                     example:
+window.innerHeight : will return the height of the content area of the browser.              document.title :  will return the title of the document.
