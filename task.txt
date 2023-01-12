@@ -15,7 +15,8 @@ We can access the window from the window only. i.e. window.window               
                                                         
 The window is part of BOM, not DOM.                                                          The document is part of BOM (browser object model) and dom (Document object model)
                                                         
-Properties of the window object cannot be accessed by the document object.                   Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title                                     
+Properties of the window object cannot be accessed by the document object.                   Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title      
+
 syntax:                                                                                      syntax:
 window.propertyname;                                                                         document.propertyname;
 
