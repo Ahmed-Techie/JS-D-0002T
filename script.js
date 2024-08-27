@@ -30,6 +30,5 @@ const obj2={
     name:"Person 1"    
     }
 
-
 _.isEqual(obj1, obj2);
 // => true
